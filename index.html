@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href=".css/style.css" rel="stylesheet">
+    <link href=".css/navbar.css" rel="stylesheet">
+    <link href=".css/animation.css" rel="stylesheet">
+    <link href=".css/media_query.css" rel="stylesheet">
+
+    <!-- MY JS -->
+    <script type="text/javascript" src=".js/exibe_text.js"></script>
+    <script type="text/javascript" src=".js/skills.js"></script>
+    <script type="text/javascript" src=".js/navbar.js"></script>
+
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- BIBLIOTECA SCROLL -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+    <title>Portfólio | Anderson</title>
+</head>
+<body>
+    
+    <header id="header">
+        <nav class="navbar">
+            <a class="logo">GitHub</a>
+            <ul id="itens" class="itens">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Sobre">Sobre</a></li>
+                <li><a href="#Projetos">Projetos</a></li>
+                <li><a href="#Habilidades">Habilidades</a></li>
+            </ul>
+          <img src=".img/icons/burguer.png" id="burguer" onclick="exibeNavbar()">
+        </nav>
+    </header>
+    <main>
+        <section id="Home">
+    
+                    <span class="apresentacao">
+                        <h2>Olá, eu sou</h2>
+                        <h1>Anderson Ashael<b class="ponto">.</b><b class="a-1">|</b>
+                        <h2>Desenvolvedor Front-End</h2>
+                        <a href="https://www.linkedin.com/in/anderson-ashael-654584165" target="_blank"><button class="btn">LinkedIn</button></a>
+                    </span>
+
+                    <span class="photo">
+                        <img src=".img/photos/photo_perfil_.png">
+                    </span>
+            
+            </div>
+        </section>
+        <section id="Sobre">
+
+                <div data-aos="zoom-in" data-aos-duration="1000" class="container-1">
+        
+                    <div class="sub-container-1">
+                        <h3>Sobre mim</h3>
+                        <ul class="nav-list">
+                            <li><a onclick="exibeOne()" id="one">Apresentação</a></li>
+                            <li><a onclick="exibeTwo()" id="two">Experiências</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="sub-container-2">
+
+                        <div class="title">
+                            <h2 id="titulo">Apresentação</h2>
+                        </div>
+                        <span class="text">
+                            <p id="texto">Olá, meu nome é Anderson Ashael e eu sou um desenvolvedor front-end júnior. Minha apredizagem com desenvolvimento web ocorreu quando eu ainda era criança, foi quando tive meu primeiro contato com as linguagens de marcação HTML e CSS nas quais desenvolvi meus primeiros projetos, que até então, eram nada além de um hobbie! O desejo em atuar como profissional na área de programação só surgiu bem mais tarde, quando eu já estava no ensino médio.</p>
+                        </span>
+                    </div>
+                </div>
+        </section>
+
+
+        <section id="Projetos">
+            <h1 class="pag" data-aos="zoom-in" data-aos-duration="1000">Projetos</h1>
+                <span class="inline">
+                    <div data-aos="fade-right" data-aos-duration="1000" class="block"><h2>Em Breve</h2></div>
+                    <div data-aos="zoom-in" data-aos-duration="1000" class="block"><h2>Em Breve</h2></div>
+                    <div data-aos="fade-left" data-aos-duration="1000" class="block"><h2>Em Breve</h2></div>      
+        </section>
+
+
+        <section id="Habilidades">
+            <div data-aos="flip-left" data-aos-duration="1000" class="geral">
+
+                <h1 class="pag" id="media-title">Habilidades</h1>
+                
+                <div class="skills">
+                    <span class="skills-buttons">
+                    <img class="img-button" id="html"       src=".img/photos/html.png" onclick="exibeHtml()">
+                    <img class="img-button" id="css"        src=".img/photos/css.png" onclick="exibeCss()">
+                    <img class="img-button" id="javascript" src=".img/photos/javascript.png" onclick="exibeJs()">
+                    <img class="img-button" id="bootstrap"  src=".img/photos/bootstrap.png" onclick="exibeBoots()">
+                    <img class="img-button" id="js"         src=".img/photos/react.png" onclick="exibeReact()">
+                    </span>
+                </div>
+
+                <div class="progress-bar">
+
+                    <h2 id="skill">HTML</h2>
+                    <h3 id="classe">Intermediário</h2>
+                    <div class="bar"><p id="progress" class="progress">75%</p></div> 
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
