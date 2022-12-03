@@ -1,0 +1,45 @@
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.logo:hover{
+    letter-spacing: 7px;
+    opacity:75%;
+}
+header{
+    width:100vw;
+    position:fixed;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    z-index: 300;
+
+}
+.navbar{  
+    height:10vh;
+    background-color: #37212D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.itens a:hover{
+    cursor:pointer;
+    color: #ffe484;
+}
+.navbar img{
+    width:40px;
+    height:40px;
+    filter:invert(100%);
+    display:none;
+}
+.navbar img:hover{
+    cursor: pointer;
+}
+.itens{
+    display:flex;
+    list-style: none;
+}
+
+.itens li{
+    letter-spacing: 4px;
+    margin-left: 45px;
+}
