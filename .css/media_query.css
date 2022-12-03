@@ -1,0 +1,172 @@
+@media (max-width:1145px){
+
+
+    /* MEDIA QUERY MENU */
+
+
+    .navbar{
+        background-color: #301c27;
+    }
+    .itens{
+        position:absolute;
+        flex-direction: column;
+        right: 0;
+        top:8vh;
+        width:50vw;
+        height:92vh;
+        align-items: center;
+        transform: translateX(100%);
+        justify-content: space-around;
+        background-color: #301c27;
+    }
+    .itens li{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header{
+        height:10vh;
+    }
+
+        /*PARA TODOS OS SECTIONS*/
+
+        h1.pag{
+            text-transform: uppercase;
+            font-size: 1.5rem;
+            width:100%;
+        }
+        
+        .navbar img{
+            display: block;
+        }
+
+
+
+        /* HOME */
+
+
+
+    .photo{
+        display:none;
+    }
+    .apresentacao{
+        width:100vw;
+        margin:auto;
+        float:none;
+        display: block;
+        text-align:center;    
+    }
+    .apresentacao h1{
+        font-size: 2.5rem;
+    }
+    b.a-1, b.ponto{
+        display: none;
+    }
+
+
+
+
+        /* SOBRE MIM */
+
+
+
+    .container-1{
+        overflow-y: hidden;
+        width:90vw;
+        height:65vh;
+    }
+    .sub-container-1{
+        display:block;
+        width:100%;
+        height: 10%;
+        margin: auto;
+        margin-bottom:10%;
+        border-bottom:solid 10px #3b2632;
+        overflow-y: hidden;
+        position:relative;
+        padding-bottom:1%;
+        padding-top: 2%;
+    }
+    .sub-container-1 h3{
+        display: none;
+    }
+    .nav-list{
+        margin: auto;
+        width:100%;
+        flex-direction: row;
+        border:none;
+        position:relative;
+        height:40px;
+    }
+    .nav-list li{
+        margin:auto;
+    }
+
+    .sub-container-2{
+        position:relative;
+        width:100%;
+        height: 100%;
+        left:0;
+        overflow-y: hidden;
+    }
+    .text{
+        width:100%;
+        text-align: center;
+        display:block;
+        height:100%
+    }
+    .text p{
+        width:90%;
+        margin-left:auto;
+        margin-right:auto;
+        height:100%;
+    }
+    .title{
+        width:100%;
+        margin:0;
+        margin-bottom:5%;
+    }
+
+    /* PROJETOS */
+
+    .inline{
+        display:block;
+        margin-top:0;
+        max-height:80vh;
+    }
+    .block {
+        margin:auto;
+        width:130px;
+        height: 120px;
+        margin-bottom:10%;
+        justify-content: none;
+        margin-left: auto;
+        margin-right:auto;
+    }
+    .block h2{
+        font-size: 1rem;
+    }
+
+
+    /* HABILIDADES */
+
+
+    .geral{
+        margin:auto;
+    }
+    #media-title{
+        display:block;
+    }
+    .progress-bar{
+        margin-top:10%;
+    }
+    .skills{
+        margin-top:10%;
+    }
+    .skills-buttons{
+        height:60px;
+    }
+    img.img-button{
+        width: 60px;
+        height:60px;
+    }
+}

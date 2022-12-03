@@ -1,0 +1,23 @@
+@keyframes animacao {
+    0% {color:white;}
+    50% {color: transparent;}
+    100% {color:white;}
+}
+
+
+@keyframes imagem{
+    0% {transform: translateX(30%);opacity: 0%;}
+    10% {opacity: 0%}
+    100% {transform: translateY(0); opacity: 100%;}
+}
+b.a-1{
+    animation-name: animacao;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+.photo img{
+    animation-name: imagem;
+    animation-duration: 4s;  
+}
