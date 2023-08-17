@@ -78,6 +78,7 @@ b.a-1{
     height:447px;
     float:right;
     margin-right: 15%;
+    border-radius: 150px !important;
 }
 
 .btn{
