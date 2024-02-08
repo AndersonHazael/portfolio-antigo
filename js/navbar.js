@@ -1,5 +1,7 @@
-
 document.addEventListener('DOMContentLoaded', function(){ 
+
+    });
+
     let ulItens = document.getElementById('itens');
     let hHeader = document.getElementById('header');
 
@@ -15,4 +17,4 @@ document.addEventListener('DOMContentLoaded', function(){
         }
     
     }
-});
+
