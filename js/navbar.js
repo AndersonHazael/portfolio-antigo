@@ -1,7 +1,4 @@
 document.addEventListener('DOMContentLoaded', function(){ 
-
-    });
-
     let ulItens = document.getElementById('itens');
     let hHeader = document.getElementById('header');
 
@@ -15,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function(){
             hHeader.style.height = "10vh"
             ulItens.style.transform = 'translateX(100%)'
         }
-    
     }
-
+    
+    document.getElementById('burguer').addEventListener('click', exibeNavbar);
+});
